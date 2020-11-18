@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A6zH/6E7CxKnSUJp4ufi+pGVi7EXT/6a/Bj1qQiS4DFSQlOwxjOmI3viOele0UDiqnJl8+4AICZEQ3QWSTQN1g==",
+  "dgSpecHash": "+xIn5bEtsnmnc7nrd8BW/Tv+SE2kImaaok5bKiWHvOen9zf48mA5jaRTCOWbJA6pfvwTgpZw5xJkm93O0RCD+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Felipe\\source\\repos\\calculadoraIMC\\calculadoraIMC.csproj",
+  "projectFilePath": "C:\\Users\\Felipe\\source\\repos\\calculadoraIMC\\calculadoraImc\\calculadoraIMC.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

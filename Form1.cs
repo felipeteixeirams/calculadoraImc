@@ -21,9 +21,16 @@ namespace calculadoraIMC
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            int peso = Convert.ToInt32(txbPeso.Text);
-            double altura = (Convert.ToDouble(Convert.ToInt32(txbAltura.Text)))/100;
-            txbResultado.Text = IMC.Calcular(peso, altura);
+            try
+            {
+                int peso = Convert.ToInt32(txbPeso.Text);
+                double altura = (Convert.ToDouble(Convert.ToInt32(txbAltura.Text)))/100;
+                txbResultado.Text = IMC.Calcular(peso, altura);
+            }
+            catch
+            {
+                txbResultado.Text = "Verifique os dados informados!";
+            }
         }
 
     }
